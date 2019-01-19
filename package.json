@@ -1,14 +1,23 @@
 {
-  "name": "lib",
+  "name": "personal-site",
   "version": "1.0.0",
-  "description": "",
-  "main": "",
+  "description": "Check it out <a href=\"https://dominicserrano.com/\">here</a>",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dmserrano/dmserrano.github.io.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmserrano/dmserrano.github.io/issues"
+  },
+  "homepage": "https://github.com/dmserrano/dmserrano.github.io#readme",
   "dependencies": {
-    "jquery": "^3.1.0"
+    "vuepress": "^0.14.8"
   }
 }
