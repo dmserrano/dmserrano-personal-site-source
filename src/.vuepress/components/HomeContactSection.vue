@@ -41,6 +41,6 @@ export default {};
 @import './../styles/index.pcss';
 
 a.btn-outline:hover {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 </style>
