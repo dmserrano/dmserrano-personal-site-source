@@ -2,7 +2,7 @@ const tailwind = require("tailwindcss")("./tailwind.js");
 const autoprefixer = require("autoprefixer");
 
 module.exports = {
-    dest: "docs",
+    dest: "/",
 
     postcss: {
         plugins: [ tailwind, autoprefixer ]
