@@ -1,14 +1,32 @@
 {
-  "name": "lib",
-  "version": "1.0.0",
-  "description": "",
-  "main": "",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "jquery": "^3.1.0"
-  }
+	"name": "personal-site",
+	"version": "1.0.0",
+	"description": "Peronal Portfolio site",
+	"scripts": {
+		"dev": "vuepress dev src",
+		"build": "vuepress build src",
+		"deploy": "npm run build && git add docs && git commit -m \"Build\" && git push origin master"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/dmserrano/dmserrano.github.io.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/dmserrano/dmserrano.github.io/issues"
+	},
+	"homepage": "https://github.com/dmserrano/dmserrano.github.io#readme",
+	"dependencies": {
+		"vuepress": "^0.14.8"
+	},
+	"devDependencies": {
+		"autoprefixer": "^9.4.6",
+		"node-sass": "^4.11.0",
+		"postcss-import": "^12.0.1",
+		"postcss-loader": "^3.0.0",
+		"sass-loader": "^7.1.0",
+		"tailwindcss": "^0.7.4"
+	}
 }

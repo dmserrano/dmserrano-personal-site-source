@@ -1,2 +1,1 @@
-# Dominic Serrano's Personal Website
-Check it out <a href="https://dominicserrano.com/">here</a>
+This site is hosted here [dominicserrano.com](https://dominicserrano.com).
