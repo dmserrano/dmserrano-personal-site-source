@@ -11,6 +11,7 @@ cd docs
 
 # if you are deploying to a custom domain
 echo "dominicserrano.com" > CNAME
+echo "This project is hosted here [dominicserrano.com](https://dominicserrano.com)." > README.md
 
 git init
 git add -A
