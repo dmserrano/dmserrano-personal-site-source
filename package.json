@@ -3,9 +3,11 @@
 	"version": "1.0.0",
 	"description": "Peronal Portfolio site",
 	"scripts": {
-		"dev": "vuepress dev src",
 		"build": "vuepress build src",
-		"deploy": "bash deploy.sh"
+		"deploy": "bash deploy.sh",
+		"dev": "vuepress dev src",
+		"eslint": "eslint \"src/.vuepress/**/*.{js,vue}\"",
+		"eslint:fix": "eslint \"src/.vuepress/**/*.{js,vue}\" --fix"
 	},
 	"repository": {
 		"type": "git",
@@ -23,6 +25,9 @@
 	},
 	"devDependencies": {
 		"autoprefixer": "^9.4.6",
+		"eslint": "^5.12.1",
+		"eslint-loader": "^2.1.1",
+		"eslint-plugin-vue": "^5.1.0",
 		"node-sass": "^4.11.0",
 		"postcss-import": "^12.0.1",
 		"postcss-loader": "^3.0.0",

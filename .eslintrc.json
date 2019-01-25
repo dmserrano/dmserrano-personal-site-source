@@ -1,0 +1,41 @@
+{
+    "env": {
+        "node": true,
+        "browser": true,
+        "es6": true
+    },
+
+    "globals": {},
+
+    "extends": [
+        "eslint:recommended",
+        "plugin:vue/recommended"
+    ],
+
+    "parserOptions": {
+        "ecmaVersion": 2018,
+        "sourceType": "module"
+    },
+
+    "rules": {
+        "indent": [
+            "error",
+            "tab",
+            { "SwitchCase": 1 }
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "double"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ],
+
+        "vue/html-indent": ["error", 4]
+    }
+}

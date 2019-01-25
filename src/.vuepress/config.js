@@ -2,22 +2,22 @@ const tailwind = require("tailwindcss")("./tailwind.js");
 const autoprefixer = require("autoprefixer");
 
 module.exports = {
-    dest: "docs",
+	dest: "docs",
 
-    postcss: {
-        plugins: [ tailwind, autoprefixer ]
-    },
+	postcss: {
+		plugins: [ tailwind, autoprefixer ]
+	},
 
-    title: "Dominic Serrano",
+	title: "Dominic Serrano",
 
-    themeConfig: {
-        nav: [
-            { text: 'Home', link: '/' },
-            { text: 'Projects', link: '/projects' },
-        ],
+	themeConfig: {
+		nav: [
+			{ text: "Home", link: "/" },
+			{ text: "Projects", link: "/projects" },
+		],
 
-        search: false,
+		search: false,
 
-        sidebar: false, // [ 'auto' ]
-    }
+		sidebar: false, // [ 'auto' ]
+	}
 };

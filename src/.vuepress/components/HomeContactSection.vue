@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-around w-4/5 m-auto">
+    <div class="contact-section-container flex justify-around w-4/5 m-auto">
         <a
             class="btn-outline btn-orange-outline"
             href="https://bitbucket.org/dmsrojo/"
