@@ -1,3 +1,3 @@
 ## Projects
 
-Coming Soon!
+<ProjectList />

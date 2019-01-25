@@ -1,5 +1,5 @@
 <template>
-    <div class="rounded shadow-lg bg-grey-lighter p-5">
+    <div class="rounded shadow-md bg-grey-lighter p-5">
         <div class="flex flex-col items-around">
             <div class="flex justify-center items-center mb-5">
                 <div class="profile-image-container">
