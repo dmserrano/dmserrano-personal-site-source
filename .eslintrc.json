@@ -36,6 +36,19 @@
             "always"
         ],
 
-        "vue/html-indent": ["error", 4]
+        "vue/html-indent": ["error", 4],
+
+        "vue/singleline-html-element-content-newline": [
+            "error",
+            {
+                "ignoreWhenNoAttributes": true,
+                "ignoreWhenEmpty": true,
+                "ignores": [
+                    "pre",
+                    "textarea",
+                    "a"
+                ]
+            }
+        ]
     }
 }

@@ -1,7 +1,7 @@
 <template>
-    <div class="contact-section-container flex justify-around w-4/5 m-auto">
+    <div class="contact-section-container flex justify-between m-auto">
         <a
-            class="btn-outline btn-orange-outline"
+            class="contact-link btn-outline btn-orange-outline"
             href="https://bitbucket.org/dmsrojo/"
             target="_blank"
         >
@@ -9,7 +9,7 @@
         </a>
 
         <a
-            class="btn-outline btn-orange-outline"
+            class="contact-link btn-outline btn-orange-outline"
             href="https://github.com/dmserrano"
             target="_blank"
         >
@@ -17,14 +17,14 @@
         </a>
 
         <a
-            class="btn-outline btn-orange-outline"
+            class="contact-link btn-outline btn-orange-outline"
             href="mailto:dmsrojo@gmail.com"
         >
             Gmail
         </a>
 
         <a
-            class="btn-outline btn-orange-outline"
+            class="contact-link btn-outline btn-orange-outline"
             href="https://www.linkedin.com/in/dominic-serrano/"
             target="_blank"
         >
@@ -42,5 +42,36 @@ export default {};
 
 a.btn-outline:hover {
     text-decoration: none !important;
+}
+
+.contact-link {
+    text-align: center;
+}
+
+.contact-section-container {
+    width: 80%;
+}
+
+
+@media (max-width: 660px) {
+    .contact-section-container {
+        width: 100%;
+    }
+}
+
+// Mobile size media query
+@media (max-width: 500px) {
+    .contact-section-container {
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .contact-link {
+        margin-bottom: 1.25em;
+    }
+
+    .contact-link:last-child {
+        margin-bottom: 0;
+    }
 }
 </style>
