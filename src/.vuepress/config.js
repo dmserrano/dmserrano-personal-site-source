@@ -16,8 +16,8 @@ module.exports = {
 			{ text: "Projects", link: "/projects" },
 		],
 
-		search: false,
+		repo: "dmserrano/dmserrano-personal-site-source",
 
-		sidebar: false, // [ 'auto' ]
+		search: false,
 	}
 };

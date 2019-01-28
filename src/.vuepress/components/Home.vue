@@ -12,7 +12,7 @@
 
             <div class="flex flex-col items-center mb-5 font-sans">
                 <h3 class="mb-5">
-                    Dominic Serrano
+                    About Me
                 </h3>
 
                 <p class="text-left mb-5 w-4/5">
