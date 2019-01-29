@@ -79,10 +79,6 @@ export default {
 <style lang="scss" scoped>
 @import './../styles/theme.styl';
 
-a {
-    // text-decoration: none;
-}
-
 @media(max-width: 600px) {
     .flex-container {
         flex-direction: column-reverse;
