@@ -49,8 +49,7 @@ export default {};
 }
 
 nav a {
-    // color: #3D4852;
-    color: #F8FAFC;
+    color: #3D4852;
     padding-bottom: 10px;
     padding-top: 10px;
     text-decoration: none;
@@ -58,7 +57,7 @@ nav a {
     border-bottom-width: 2px;
 
     &:hover {
-        border-bottom-color: orange;
+        border-bottom-color: #dc8034;
         border-bottom-width: 2px;
     }
 }

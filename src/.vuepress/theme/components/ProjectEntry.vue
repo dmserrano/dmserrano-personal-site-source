@@ -80,7 +80,7 @@ export default {
 @import './../styles/theme.styl';
 
 a {
-    text-decoration: none;
+    // text-decoration: none;
 }
 
 @media(max-width: 600px) {

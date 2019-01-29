@@ -37,6 +37,10 @@ export default {
 
 .project-list-container {
     width: 90%;
+
+    &:last-child {
+        margin-bottom: 0;
+    }
 }
 
 // Media queries

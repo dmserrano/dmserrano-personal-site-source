@@ -1,6 +1,6 @@
 <template>
-    <div class="layout-container bg-grey-lightest">
-        <Nav class="bg-blue-light" />
+    <div class="layout-container bg-blue">
+        <Nav class="bg-grey-lightest" />
 
         <div class="container mx-auto">
             <component :is="component" />
