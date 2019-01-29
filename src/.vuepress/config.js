@@ -9,15 +9,4 @@ module.exports = {
 	},
 
 	title: "Dominic Serrano",
-
-	themeConfig: {
-		nav: [
-			{ text: "Home", link: "/" },
-			{ text: "Projects", link: "/projects" },
-		],
-
-		repo: "dmserrano/dmserrano-personal-site-source",
-
-		search: false,
-	}
 };
