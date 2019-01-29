@@ -1,3 +1,4 @@
-## Projects
-
-<ProjectList />
+---
+title: Projects
+component: ProjectList
+---

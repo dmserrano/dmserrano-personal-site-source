@@ -52,7 +52,13 @@
 </template>
 
 <script>
+import TagButton from "./TagButton";
+
 export default {
+	components: {
+		TagButton
+	},
+
 	props: {
 		date: { type: String, required: true },
 		description: { type: String, required: true },
@@ -71,7 +77,11 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import './../styles/index.pcss';
+@import './../styles/theme.styl';
+
+a {
+    text-decoration: none;
+}
 
 @media(max-width: 600px) {
     .flex-container {

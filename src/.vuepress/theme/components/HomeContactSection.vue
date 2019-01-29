@@ -1,5 +1,5 @@
 <template>
-    <div class="contact-section-container flex justify-between m-auto">
+    <div class="contact-section-container flex justify-between m-auto font-sans">
         <a
             class="contact-link btn-outline btn-orange-outline"
             href="https://bitbucket.org/dmsrojo/"
@@ -34,14 +34,15 @@
 </template>
 
 <script>
-export default {};
+export default {
+};
 </script>
 
 <style lang="scss" scoped>
-@import './../styles/index.pcss';
+@import './../styles/theme.styl';
 
-a.btn-outline:hover {
-    text-decoration: none !important;
+a.btn-outline {
+    text-decoration: none ;
 }
 
 .contact-link {
@@ -60,7 +61,7 @@ a.btn-outline:hover {
 }
 
 // Mobile size media query
-@media (max-width: 500px) {
+@media (max-width: 550px) {
     .contact-section-container {
         flex-direction: column;
         width: 70%;

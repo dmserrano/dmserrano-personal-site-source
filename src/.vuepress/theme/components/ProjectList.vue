@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="project-list-container mx-auto">
         <ProjectEntry
             v-for="({
                 date, description, image, links, tags, title
@@ -16,9 +16,14 @@
 </template>
 
 <script>
+import ProjectEntry from "./ProjectEntry";
 import projects from "./projects";
 
 export default {
+	components: {
+		ProjectEntry
+	},
+
 	data() {
 		return {
 			projects
@@ -28,5 +33,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@import './../styles/index.pcss';
+@import './../styles/theme.styl';
+
+.project-list-container {
+    width: 90%;
+}
+
+// Media queries
+@media (min-width: 1200px) {
+    .project-list-container {
+        width: 80%;
+    }
+}
 </style>
