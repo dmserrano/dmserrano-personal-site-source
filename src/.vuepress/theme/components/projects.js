@@ -11,6 +11,20 @@ import {
 
 export default [
 	{
+		description: "Speech Synth is a simple GUI built around the Web Speech Synthesis API. With the Speech Synthesis API, text can be spoken in different voices, languages, pitch and more.",
+		date: "Feb 17, 2019",
+		image: "speech-synth.png",
+		links: [
+			{ link: "https://github.com/dmserrano/speech-synthesis-api", label: "Github" },
+			{ link: "/speech-synthesis-api", label: "Project" },
+		],
+		tags: [
+			JAVASCRIPT, VUEJS
+		],
+		title: "Speech Synth"
+	},
+
+	{
 		description: "Free Books is a project that I built for my wife to help her track her annual expsenses. After not being able to find a free and simple solution, I decided to give it a try!",
 		date: "Aug 30, 2018",
 		image: "free-books.png",
