@@ -24,7 +24,7 @@
 		"vuepress": "^1.0.0-alpha.47"
 	},
 	"devDependencies": {
-		"@vuepress/plugin-google-analytics": "^1.0.0-alpha.0",
+		"@vuepress/plugin-google-analytics": "^1.0.0-alpha.47",
 		"autoprefixer": "^9.4.6",
 		"eslint": "^5.12.1",
 		"eslint-loader": "^2.1.1",
