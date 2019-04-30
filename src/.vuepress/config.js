@@ -21,6 +21,14 @@ module.exports = {
 	},
 
 	themeConfig: {
+		/**
+		 * Author object is for SEO plugin
+		*/
+		author: {
+			name: "Dominic Serrano",
+			twitter: "dmsrojo"
+		},
+
 		lastUpdated: true
 	},
 
