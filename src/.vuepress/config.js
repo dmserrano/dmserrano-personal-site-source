@@ -10,11 +10,18 @@ module.exports = {
 			{
 				"ga": "UA-133474168-1"
 			}
+		],
+		[
+			"seo"
 		]
 	],
 
 	postcss: {
 		plugins: [ tailwind, autoprefixer ]
+	},
+
+	themeConfig: {
+		lastUpdated: true
 	},
 
 	title: "Dominic Serrano",
