@@ -19,14 +19,14 @@
 	},
 	"homepage": "https://github.com/dmserrano/dmserrano.github.io#readme",
 	"dependencies": {
-		"vuepress": "^0.14.8"
+		"vuepress": "^1.9.7"
 	},
 	"devDependencies": {
 		"autoprefixer": "^9.4.6",
 		"node-sass": "^4.11.0",
 		"postcss-import": "^12.0.1",
-		"postcss-loader": "^3.0.0",
-		"sass-loader": "^7.1.0",
+		"postcss-loader": "^7.0.2",
+		"sass-loader": "^13.2.0",
 		"tailwindcss": "^0.7.4"
 	}
 }
