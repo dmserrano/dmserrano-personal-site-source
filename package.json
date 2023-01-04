@@ -19,7 +19,7 @@
 	},
 	"homepage": "https://github.com/dmserrano/dmserrano.github.io#readme",
 	"dependencies": {
-		"vuepress": "^0.14.8"
+		"vuepress": "^1.9.7"
 	},
 	"devDependencies": {
 		"autoprefixer": "^9.4.6",
